@@ -1,14 +1,13 @@
 import React from 'react'
-import Password from './passwordGen/Password';
+import Password from './passGen/Password';
 
 function App() {
   return (
-    <div className="App flex flex-row bg-slate-400">
-      <div className='w-[50%]'><Password /></div>
+    <div className="App w-full h-full ">
+      <Password />
       
     </div>
   );
 }
 
 export default App;
-  

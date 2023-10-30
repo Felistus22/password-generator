@@ -28,7 +28,7 @@ function Password() {
   return (
     <div className='m-0 p-2 text-xl flex justify-center flex-col items-center bg-teal-900 text-gray-100 leading-10'>
       <h2> Password Generator</h2>
-      <div className=''>
+      <div className='text-black'>
         <input type="text" placeholder="password" id="passwordBox" readOnly value={newPassword} />
         
       </div>
